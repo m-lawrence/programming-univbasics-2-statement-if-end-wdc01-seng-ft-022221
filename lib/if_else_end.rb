@@ -1,3 +1,3 @@
 
 exact_time = Time.now
-puts 
+puts Time.now
