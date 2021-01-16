@@ -1,6 +1,6 @@
 current_time = Time.now
-current
-if (current_time.to_i / 2).class == Integer
+current_time = current_time.to_i
+if current_time % 2 == 0
   put "Even!"
 else
   put "Odd!"
